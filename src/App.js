@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     localStorage.setItem("flashcards", JSON.stringify(flashcards));
   }, [flashcards]);
-  console.log(flashcards, "flashcards");
+  
   const handelDelete = (e, id) => {
     e.stopPropagation();
 

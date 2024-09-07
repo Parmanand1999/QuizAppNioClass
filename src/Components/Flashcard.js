@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { MdDelete } from "react-icons/md";
 function Flashcard({ flashcard ,handelDelete}) {
   const [flipped, setFlipped] = useState(false);
-  // console.log(flashcard,"flipped");
+  
 
   return (
     <div
